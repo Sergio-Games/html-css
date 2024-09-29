@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .pequeno{
+            width: 60px;
+            padding: 0px;
+        }
+
+        div{
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .pequeno:hover{
+            font-size: 2em;
+            color: black;
+            background-color: white;
+            padding: 3px;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1 class="principal">Pseudo-classes</h1>
+        <h2>pseudoclasse: hover</h2>
+            <p>A psedoclasse: hover serve para quando você passar o mouse mouse encima de um conteúdo dentro de um elemento ou classe ele se modifique de acordo com seu css. Como por exemplo <div class="pequeno">aqui</div> </h2>
+        <h2>uso de filhos com "&gt;"</h2>
+         <p>com o uso de filhos você pode atribuir propiedades para tags dentro de outras tags, por exemplo, dentro da tag "div" abaixo eu coloquei um parágrafo escondido que se revela ao passar o mouse por cima utilizando o hover, para isso eu precisei criar um div:hover &gt; p no css, que basicamente diz que todos os "p" dentro da div vai ser modificado </p>
+
+         <div>
+            passe o mouse aqui k k
+            <p>Casca de bala (lol lmao jajajajaja)</p>
+         </div>
+
+        <h1 class="principal">Pseudo-Elementos</h1>
+
+         <h2>pseudoelemento:: before</h2>
+            <p>O uso do Pseudo-Elemento "before" serve para adicionar algo antes de um elemento, classe ou id da sua escolha, por exemplo, eu vou colocar um emoji de foguinho antes de todos os parágrafos</p>
+
+        <h2>pseudoelemento:: after</h2>
+         <p>Como dar para imaginar, neste Pseudo-Elemento "after" coloca algo após um elemento, classe ou id, por exemplo, eu vou colocar um emoji de diabinho após todos os parágrafos</p>
+    </main>
+</body>
+</html>

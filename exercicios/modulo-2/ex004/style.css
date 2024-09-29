@@ -1,0 +1,22 @@
+
+@charset"UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+@font-face {
+    font-family:"star" ;
+    src: url(stormlight/Stormlight.otf) format(opentype), url(stormlight/Stormlight.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font: 500 normal 1em "Zain", sans-serif;
+}
+
+h1{
+    font: normal normal 3em 'star', serif;
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+
+body{
+    /*#0C0A3D*/
+     background-image: linear-gradient(to right, #0C0A3D, #02003D);
+}
+main{
+    background-color: white;
+    width: 81.25em;
+    padding: 0.625em;
+    border-radius: 0.5;
+    margin: auto;
+    height: 86.875em;
+    box-shadow: 0.3125em 0.3125em 0.9375em #0f0d504f;
+}
+
+h1{ 
+    text-align: center;
+    color: #343192;
+    text-shadow: 0.0875em 0.025em 0.0875em #1b194b44;
+    font: 500 normal 3.5em 'Expletus Sans', serif;
+}
+
+h2{
+    color: #6fbd5e;
+    text-shadow: 0.0625em 0.0625em 0.1875em #4d834157;
+    font: 600 normal 1.5em Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+    font: 400 normal 1.5em "Zain", sans-serif;
+    text-indent: 20px;
+}
+
+img{
+    width: 500px;
+    box-shadow: 0.1875em 0.1875em 0.3125em rgba(0, 0, 0, 0.534);
+}
+
+p#imagem{
+    width: 600px;
+
+}
+
+span{
+    width: 1300px;
+    height: 281.25px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin-right: 60px;
+}

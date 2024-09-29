@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(99, 99, 99);
+    }
+
+    header{
+        background-color: white;
+        margin: auto ;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.486);
+        width: 1500px;
+    }
+
+    h1#principal{
+        text-align: center;
+    }
+
+
+    a{
+            display: block;
+            margin: 10px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background-color: rgb(109, 109, 109);
+            width: 100px;
+            text-align: center;
+    }
+
+    section{
+        width: 1500px;
+        margin: 40px auto;
+        background-color: white;
+        box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.247);
+        padding: 10px;
+    }
+
+    section > h1{
+        color: white;
+        background-color: black;
+        width: 200px;
+        text-align: center;
+        margin: auto;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: rgb(84, 84, 255);
+    }
+
+    footer > a{
+        width: 100px;
+        margin: 20px auto;
+    }
+
+    nav > a{
+        width: 60px;
+    }
+
+    aside#panetone > a{
+        width: 90px;
+    }
+
+    aside#bolo > a{
+        width: 60px;
+    }
+
+    article > p{
+        text-indent: 20px;
+    }
+
+    .container{
+        display: grid;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="principal">Tiítulo do site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    
+    <main>
+
+        <section id="panetone">
+            <h1>panetone</h1>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id asperiores sequi corrupti inventore delectus cupiditate alias odio perferendis itaque explicabo, voluptates ex eaque excepturi, voluptate perspiciatis incidunt animi totam accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, consectetur voluptatem distinctio minima libero temporibus omnis, veniam velit earum veritatis sequi nam. Laudantium labore amet nobis, laborum repellendus quae nesciunt!</p>
+
+                <aside id="panetone">
+                    <p>aqui temos links de panetones</p>
+
+                    <a href="#">Panetone</a>
+                    <a href="#">Panetone</a>
+                    <a href="#">Panetone</a>
+                    <a href="#">Panetone</a>
+                    <a href="#">Panetone</a>
+                    <a href="#">Panetone</a>
+                </aside>
+            </article>
+        </section>
+
+        <div class="container">
+            <section>
+                <h1>Bolo</h1>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quam minima fugiat ut! Esse similique, quod reiciendis, sequi voluptatibus beatae laborum dolor molestiae quo praesentium, veritatis magnam quos deleniti distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ratione, non perferendis fugiat suscipit pariatur voluptatum laborum ex dolores eius neque nam odio cupiditate recusandae? Voluptatibus maiores tempore sed dolorum.</p>
+                    <aside id="bolo">
+                        <p>aqui temos links de bolos</p>
+                        <a href="#">Bolos</a>
+                        <a href="#">Bolos</a>
+                        <a href="#">Bolos</a>
+                        <a href="#">Bolos</a>
+                        <a href="#">Bolos</a>
+                        <a href="#">Bolos</a>
+                    </aside>
+                </article>
+            </section>
+            <aside id="casa">
+                <h2>casas de doces</h2>
+                <a href="#">Casa de doce</a>
+                <a href="#">Casa de doce</a>
+                <a href="#">Casa de doce</a>
+                <a href="#">Casa de doce</a>
+                <a href="#">Casa de doce</a>
+                <a href="#">Casa de doce</a>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>site desenvolvido por: Murilo Antunes</p>
+
+        <h1>redes sociais</h1>
+
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Youtube</a>
+    </footer>
+</body>
+</html>

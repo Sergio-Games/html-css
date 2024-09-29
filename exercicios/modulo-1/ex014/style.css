@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(19, 19, 19); text-align: justify; color: white;
+}
+
+abbr {
+    color: rgb(255, 0, 0);
+}
+
+strong {
+    color: rgb(15, 15, 252);
+}
+
+h2{
+    color: black;
+}
+
+mark{
+    background-color: white;
+}
+
+a{
+    color: white; 
+}

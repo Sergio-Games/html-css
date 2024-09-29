@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+
+main{
+    margin: auto;
+    width: 1200px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    height: 1250px;
+}
+
+p{
+    text-indent: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p::before{
+    content: '🔥';
+}
+
+p::after{
+    content: '😈';
+}
