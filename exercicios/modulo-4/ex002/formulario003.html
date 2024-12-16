@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Notas dos alunos</h1>
+    
+    <form action="formulario.php" autocomplete="on" method="get">
+        <p id="paluno">
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="Nome Completo" maxlength="30">
+        </p>
+
+        <p id="pmedia"> 
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" placeholder="média"  min="0" max="10" step="0.5" required >
+        </p>
+
+        <p>
+            <label for="iperiodo">Périodo da nota</label>
+            <input type="month" name="periodo" id="iperiodo" required value="2024-12" autocomplete="bday-month">
+        </p>
+
+        <p>
+            <label for="idata">Dia da Prova</label>
+            <input type="date" name="data" id="idata" required value="2024-12-16">
+        </p>
+
+        <p>
+            <label for="ihora">Horários da Prova (opcional)</label>
+            <input type="time" name="hora" id="ihora" >
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
+</body>
+</html>
