@@ -2,3 +2,10 @@
 
 /* css para impressora */
 
+ul li{
+    display: none;
+}
+
+main{
+    line-height: 1.5em;
+}
