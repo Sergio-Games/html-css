@@ -25,11 +25,11 @@
     }
 }
 
-@media screen and (orientatation: portrait) {
+@media screen and (orientation:portrait) {
 
     body{
-        background-image: url();
-        background-position:center bottom;
+        background-image: url(../imagens/cev-portrait.jpg);
+        background-position: center bottom;
     }
     
     h1{
@@ -38,7 +38,7 @@
     
 }
 
-@media screen and (orientatation:landscape) {  
+@media screen and (orientation: landscape) {  
 
     body{
         background-image: url(../imagens/cev-landscape.jpg);
