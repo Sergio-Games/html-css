@@ -62,8 +62,10 @@ main{
 
 article{
     background-color: white;
-    height: 70vh;
+    height: fit-content;
     padding: 10px;
+    width: 90vw;
+    margin: auto;
 }
 
 article p{
