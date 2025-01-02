@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*Tela Tablet*/
+
+img{
+    display: none;
+}
+
+ul{
+    display: inline-block;
+    margin-top: 0px;
+    background-color: gray;
+    text-align: left;
+}
+
+div{
+    text-align: left;
+    background-color: gray;
+    width: 100vw;
+    
+}
+
+li{
+    display: inline-block;
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
