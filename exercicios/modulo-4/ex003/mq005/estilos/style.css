@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* Estilo Geral (mobile first)*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scrollbar-width: none;
+}
+
+header{
+    background-color: gray;
+    color: black;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+
+
+  ul{
+    display: none;
+    background-color: rgb(78, 78, 78);
+    margin-top: 5px;
+}
+
+li{
+    padding: 20px;
+    border: 1px solid white;
+    margin-top: 1px;
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+li:hover{
+    background-color: rgb(124, 124, 124);
+    color: black;
+    cursor: pointer;
+}
+
+img{
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+main{
+    padding: 20px;
+}
+
+article{
+    background-color: white;
+    height: 70vh;
+    padding: 10px;
+}
+
+article p{
+    text-align: justify;
+    line-height: 2em;
+    margin-top: 30px;
+    text-indent: 15px;
+}
+
+div#menu{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

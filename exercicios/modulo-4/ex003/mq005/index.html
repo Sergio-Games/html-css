@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <div id="menu" >
+            <img src="imagens/menu.png" alt="" onclick="clickMenu()">
+            
+            <ul id="opcao">
+                <li>Opção 1</li>
+                <li>Opção 2</li>
+                <li>Opção 3</li>
+                <li>Opção 4</li>
+                <li>Opção 5</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <h1>Testando Media Queries</h1>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et similique dicta eligendi molestias nihil? Deleniti reiciendis rem fugit facilis, accusantium vero enim maiores magni repellat aliquid in debitis iste suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium adipisci saepe mollitia ipsam ducimus cupiditate, esse nostrum suscipit labore sit facere reprehenderit minus fugiat dolorum. Vitae doloribus eius assumenda deserunt?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repellat quo architecto. Culpa voluptates, qui voluptate harum similique iure sed dolor, consequuntur eos cupiditate ullam facere aut, aliquid reprehenderit nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ea voluptatum! Magnam, aliquid quo aperiam sed ratione perspiciatis doloribus at ipsa commodi beatae tempora reprehenderit eligendi culpa vel voluptatibus sequi?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit at numquam beatae assumenda dolorum similique aspernatur ea. Nostrum deleniti eveniet veritatis repudiandae sunt numquam facilis suscipit excepturi. Maxime, cupiditate recusandae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laudantium ducimus impedit omnis aperiam nisi eum adipisci cupiditate, pariatur magnam ullam error, doloribus itaque laborum eius illo eaque ex est.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu(){
+            if (opcao.style.display == 'block') {
+            opcao.style.display = 'none'} else {
+                opcao.style.display = 'block'
+            }
+        }    
+    </script>
+</body>
+</html>
