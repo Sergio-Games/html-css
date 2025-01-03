@@ -9,7 +9,7 @@ img{
 ul{
     display: inline-block;
     margin-top: 0px;
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(179, 179, 179);
     text-align: left;
     
 }
@@ -25,7 +25,7 @@ li{
 }
 
 div#menu{
-    background-color: gray;
+    background-color: rgb(179, 179, 179);
     text-align: left;
     margin: 0;
     margin-top: 10px;
