@@ -32,6 +32,6 @@ div#menu{
 }
 
 article{
-    min-width: 60vw;
-    max-width: 50vw;
+    min-width: 40vw;
+    max-width: 30vw;
 }
