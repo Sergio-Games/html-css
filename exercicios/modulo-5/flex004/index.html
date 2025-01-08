@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização de itens Flexbox</title>
+
+    <style>
+
+
+        div#um{
+            width: 800px;
+            height: 800px;
+            background-color: black;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div#dois{
+            width: 600px;
+            height: 600px;
+            background-color: yellow;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div#tres{
+            width: 400px;
+            height: 400px;
+            background-color: green;
+            border-radius: 30px;
+        }
+
+        main{
+            width: 99vw;
+            height: 98vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="um">
+            <div id="dois">
+                <div id="tres">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
